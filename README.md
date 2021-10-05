@@ -1,4 +1,5 @@
-# HelloWorld-
-Put a hello world in some programming language! 
+# Hacktoberfast Baby Steps
 
-HACKTOBERFEST IN ON!
+<h3> Enter any code to contribute and secure your hacktoberfast prize! </h3>
+
+#### HACKTOBERFEST IN ON!
