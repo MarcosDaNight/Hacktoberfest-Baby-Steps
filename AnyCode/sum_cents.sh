@@ -1,6 +1,7 @@
 # argument: id
 # get anon.txt and filter my id, result in file named eu
 wget -q -O - http://lad.ufcg.edu.br/loac/uploads/OAC/anon.txt | grep "^$1 " >eu
+cat eu
 # filter out each type and sum it up
 tik=$(grep tinker:        eu | awk '{sum+=$3} END{print sum;}')
 fac=$(grep Falstad_comb:  eu | awk '{sum+=$3} END{print sum;}')
@@ -28,6 +29,7 @@ echo "tinker:$tik Falstad_comb:$fac Falstad_ff:$faf FPGA_comb:$fpc para:$par FPG
 [ $fac -gt 100 ] && fac=100   # limitar  Falstad_comb
 cb=$(expr $tik + $fac + $fpc) # calcular combinacional
 [ $cb  -gt 200 ] && cb=200    # limitar  combinacional
+[ $faf -gt 300 ] && faf=300   # limitar  Falstad_ff
 cf=$(expr  $cb + $faf + $fpf) # calcular combinacional+sequencial
 [ $cf  -gt 600 ] && cf=600    # limitar  combinacional+sequencial
 [ $par -gt 100 ] && par=100   # limitar  paralelismo
