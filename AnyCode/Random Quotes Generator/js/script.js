@@ -2,18 +2,18 @@
     const quotes = [
         {
             quote:
-              " We grow fearless when we do the things we fear. ",
-            author: "- Robin Sharma"
+              " Life is a sleazy stranger, who looks vaguely familiar; flirting with a bimbo named disaster at the end of the bar. ",
+            author: "- Ani DiFranco"
           },
           {
             quote:
-              " And, when you want something, all the universe conspires in helping you to achieve it. ",
-            author: "- Paulo Coelho, 'The Alchemist'"
+              " I have a theory that the answers to all of life’s major questions can found in a John Mayer song. ",
+            author: "- Susane Colasanti"
           },
           {
             quote:
-              " When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one which has been opened for us.",
-            author: "- Helen Keller"
+              " It’s not the length of life, but the depth of life. ",
+            author: "- Ralph Waldo Emerson"
           },
           {
             quote: " If you hear a voice within you say 'you cannot paint,' then by all means paint and that voice will be silenced. ",
