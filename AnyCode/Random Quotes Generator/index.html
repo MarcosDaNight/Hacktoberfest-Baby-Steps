@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Charm|Roboto" rel="stylesheet">
+    <title>Random Quote Generator</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #2c3e50;
+        }
+
+        .max-height {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row max-height align-items-center">
+            <div class="col-11 mx-auto col-md-6 quote-container p-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="text-muted"><span class="quote-icon mr-3">
+                                <i class="fas fa-quote-left fa-3x"></i><span id="quote">
+                                    If you are going to be courageous, an example for all those who are ready to step
+                                    into their power, then you must be willing to show the world all of who you are. You
+                                    must have the guts to throw off the chains of modesty and mediocrity in order to be
+                                    the light that the world needs.
+                                </span>
+                            </span></h3>
+                        <h5 class="text-right text-capitalize author">-<span class="quote-author ml-3">
+                                Debbie Ford
+                            </span></h5>
+
+                        <button class="btn btn-success text-capitalize my-4 d-block mx-auto" id="generate-btn">Generate
+                            Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
